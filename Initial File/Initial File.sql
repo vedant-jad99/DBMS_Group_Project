@@ -11,6 +11,7 @@ CONSTRAINT XPKINCIDENT_17 PRIMARY KEY (Incident_Id)
 );
 CREATE UNIQUE INDEX XPKINCIDENT_17 ON T5_INCIDENT (Incident_Id ASC);
 -- Table 2
+-- cust_id = 50201...50220
 CREATE TABLE IF NOT EXISTS T5_CUSTOMER
 (
 CUST_Id VARCHAR(15) NOT NULL ,
@@ -27,26 +28,26 @@ CUST_PPS_Number INTEGER NULL ,
 CONSTRAINT XPKCUSTOMER PRIMARY KEY (CUST_Id)
 );
 CREATE UNIQUE INDEX XPKCUSTOMER_1 ON T5_CUSTOMER (Cust_Id ASC);
-INSERT INTO T5_CUSTOMER VALUES (50001, 'Aakash', 'Tiwari', 20000906, 'M','Lucknow',6969696969,'18bcs001@iiitdwd.ac.in', 9104658395, 'Single', 100 );
-INSERT INTO T5_CUSTOMER VALUES (50002, 'Yashdeep ', ' Shetty ',19991204 , 'F','Mumbai ',9696969696 ,'18bcs092@iiitdwd.ac.in ', 7583947392, 'Married ', 10 );
-INSERT INTO T5_CUSTOMER VALUES (50003, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50004, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50005, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50006, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50007, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50008, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50009, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50010, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50011, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50012, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50013, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50014, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50015, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50016, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50017, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50018, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50019, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50020, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50201, 'Aakash', 'Tiwari', 20000906, 'M','Lucknow',6969696969,'18bcs001@iiitdwd.ac.in', 9104658395, 'Single', 100 );
+INSERT INTO T5_CUSTOMER VALUES (50202, 'Yashdeep ', ' Shetty ',19991204 , 'F','Mumbai ',9696969696 ,'18bcs092@iiitdwd.ac.in ', 7583947392, 'Married ', 10 );
+INSERT INTO T5_CUSTOMER VALUES (50203, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50204, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50205, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50206, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50207, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50208, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50209, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50210, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50211, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50212, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50213, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50214, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50215, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50216, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50217, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50218, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50219, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50220, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
 #insert into T5_CUSTOMER values (, '  ', '  ', , ' ','  ', ,' @gmail.com', , ' ',  ); <- Dont delete this
 -- Table 3
 CREATE TABLE IF NOT EXISTS T5_INCIDENT_REPORT
@@ -119,6 +120,7 @@ CREATE UNIQUE INDEX XPKVEHICLE_SERVICE ON T5_VEHICLE_SERVICE
 (Vehicle_Service_Company_Name ASC,Department_Name ASC);
 
 -- Table 7
+-- vehicle id = 50701....50720
 CREATE TABLE T5_VEHICLE
 (
 Vehicle_Id VARCHAR(20) NOT NULL ,
@@ -188,28 +190,28 @@ CONSTRAINT R_93 FOREIGN KEY (Cust_Id) REFERENCES T5_CUSTOMER
 CREATE UNIQUE INDEX XPKAPPLICATION_2 ON T5_APPLICATION
 (Application_Id ASC,Cust_Id ASC);
 -- INSERT VALUES FORMAT
--- ('50001.....50020', '71001....71020', 'ACCEPTED|PENDING|REJECTED', 'Liability Coverage|Uninsured And Underinsured Motorist Coverage|Comprehensive Coverage|Collision Coverage|Medical Payments Coverage|Personal Injury Protection', '5001..50020')
+-- ('51001.....51020', '50701....50720', 'ACCEPTED|PENDING|REJECTED', 'Liability Coverage|Uninsured And Underinsured Motorist Coverage|Comprehensive Coverage|Collision Coverage|Medical Payments Coverage|Personal Injury Protection', '50201..50220')
 INSERT INTO T5_APPLICATION VALUES
-	('50001', '71001', 'PENDING', 'Liability Coverage', '5005'),
-    ('50002', '71002', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '5008'),
-    ('50003', '71003', 'PENDING', 'Comprehensive Coverage', '5003'),
-    ('50004', '71004', 'REJECTED', 'Collision Coverage', '5001'),
-    ('50005', '71005', 'ACCEPTED', 'Medical Payments Coverage', '5004'),
-    ('50006', '71006', 'PENDING', 'Personal Injury Protection', '5006'),
-    ('50007', '71007', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '5007'),
-    ('50008', '71008', 'ACCEPTED', 'Liability Coverage', '5002'),
-    ('50009', '71009', 'REJECTED', 'Medical Payments Coverage', '5009'),
-    ('50010', '71010', 'PENDING', 'Medical Payments Coverage', '50020'),
-    ('50011', '71011', 'PENDING', 'Liability Coverage', '50010'),
-    ('50012', '71012', 'REJECTED', 'Comprehensive Coverage', '50018'),
-    ('50013', '71013', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50019'),
-    ('50014', '71014', 'ACCEPTED', 'Medical Payments Coverage', '50012'),
-    ('50015', '71015', 'REJECTED', 'Collision Coverage', '50011'),
-    ('50016', '71016', 'ACCEPTED', 'Liability Coverage', '50016'),
-    ('50017', '71017', 'REJECTED', 'Personal Injury Protection', '50013'),
-    ('50018', '71018', 'PENDING', 'Personal Injury Protection', '50015'),
-    ('50019', '71019', 'ACCEPTED', 'Comprehensive Coverage', '50014'),
-    ('50020', '71020', 'REJECTED', 'Collision Coverage', '50017');
+    ('51001', '50701', 'PENDING', 'Liability Coverage', '50205'),
+    ('51002', '50702', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50208'),
+    ('51003', '50703', 'PENDING', 'Comprehensive Coverage', '50203'),
+    ('51004', '50704', 'REJECTED', 'Collision Coverage', '50201'),
+    ('51005', '50705', 'ACCEPTED', 'Medical Payments Coverage', '50204'),
+    ('51006', '50706', 'PENDING', 'Personal Injury Protection', '50206'),
+    ('51007', '50707', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '50207'),
+    ('51008', '50708', 'ACCEPTED', 'Liability Coverage', '50202'),
+    ('51009', '50709', 'REJECTED', 'Medical Payments Coverage', '50209'),
+    ('51010', '50710', 'PENDING', 'Medical Payments Coverage', '50220'),
+    ('51011', '50711', 'PENDING', 'Liability Coverage', '50210'),
+    ('51012', '50712', 'REJECTED', 'Comprehensive Coverage', '50218'),
+    ('51013', '50713', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50219'),
+    ('51014', '50714', 'ACCEPTED', 'Medical Payments Coverage', '50212'),
+    ('51015', '50715', 'REJECTED', 'Collision Coverage', '50211'),
+    ('51016', '50716', 'ACCEPTED', 'Liability Coverage', '50216'),
+    ('51017', '50717', 'REJECTED', 'Personal Injury Protection', '50213'),
+    ('51018', '50718', 'PENDING', 'Personal Injury Protection', '50215'),
+    ('51019', '50719', 'ACCEPTED', 'Comprehensive Coverage', '50214'),
+    ('51020', '50720', 'REJECTED', 'Collision Coverage', '50217');
 -- TABLE 11
 
 CREATE TABLE IF NOT EXISTS T5_INSURANCE_POLICY
@@ -282,28 +284,28 @@ T5_APPLICATION (Application_Id, Cust_Id)
 CREATE UNIQUE INDEX XPKQUOTE_3 ON T5_QUOTE
 (Quote_Id ASC,Application_Id ASC,Cust_Id ASC);
 -- INSERT INTO FORMAT
--- ('52001....52020', 'yyyy-mm-dd', 'yyyy-mm-dd', 'yyyy-mm-dd', 'Product description', 'T5(four letters)(three digits)', 'total premium in rupees', '71001...71020', '5001...50020')
+-- ('51401....51420', 'yyyy-mm-dd', 'yyyy-mm-dd', 'yyyy-mm-dd', 'Product description', 'T5(four letters)(three digits)', 'total premium in rupees', '71001...71020', '5001...50020')
 INSERT INTO T5_QUOTE VALUES
-	('52001', '2020-02-08', '2020-02-08', '2025-02-08',  'Honda Activa 6G standard', 'T5KSHD345', '5000', '50001', '5005'),
-    ('52002', '2017-04-01', '2017-04-01', '2013-04-01',  'Honda Activa 125', 'T5EION8500', '3000', '50002', '5008'),
-    ('52003', '2020-06-08', '2020-06-08', '2026-06-08',  'Maruti Suzuki S-Presso LXI', 'T5BRUH420', '9000', '50003', '5003'),
-    ('52004', '2014-09-29', '2014-09-29', '2021-09-29',  'Honda Activa 6G standard', 'T5LISR699', '3000', '50004', '5001'),
-    ('52005', '2019-07-04', '2019-07-04', '2024-07-04',  'Volkswagen T-Roc', 'T5LSHI374', '9000', '50005', '5004'),
-    ('52006', '2020-12-09', '2020-12-09', '2025-12-09',  'Mahindra XUV500 W5', 'T5LSEI236', '5000', '50006', '5006'),
-    ('52007', '2020-10-23', '2020-10-23', '2025-10-23',  'Skoda Rapid', 'T5KENS902', '9000', '50007', '5007'),
-    ('52008', '2019-05-29', '2019-05-29', '2024-05-29',  'Volvo XC90 2.0 D5 Momentum AT 4WD', 'T5EHIV234', '5000', '50008', '5002'),
-    ('52009', '2016-11-06', '2016-11-06', '2021-11-06',  'Toyota Urban Cruiser', 'T5QEID230', '9000', '50009', '5009'),
-    ('52010', '2020-09-08', '2020-09-08', '2026-09-08',  'Honda Activa 6G standard', 'T5QEWN382', '6000', '50010', '50020'),
-    ('52011', '2020-07-10', '2020-07-10', '2025-07-10',  'Elife Air 20 T Folding Bikes/Folding Cycle', 'T5TYST969', '4000', '50011', '50010'),
-    ('52012', '2018-12-10', '2018-12-10', '2023-12-10',  'Husqvarna Svartpilen 250', 'T5BSDK133', '9000', '50012', '50018'),
-    ('52013', '2017-01-02', '2017-01-02', '2022-01-02',  'TVS XL100', 'T5SALE387', '2000', '50013', '50019'),
-    ('52014', '2018-11-10', '2018-11-10', '2023-11-10',  'Bianchi C-sport Cross 29 T Hybrid Cycle', 'T5CHOU392', '6000', '50014', '50012'),
-    ('52015', '2019-02-09', '2019-02-09', '2025-02-09', 'Royal Enfield Classic 350', 'T5LEOW783', '9000', '50015', '50011'),
-    ('52016', '2018-10-06', '2018-10-06', '2024-10-06', 'Honda Activa 125', 'T5KJEI280', '3000', '50016', '50016'),
-    ('52017', '2018-04-28', '2018-04-28', '2023-04-28',  'Bajaj Pulsar 150', 'T5FCUK038', '5000', '50017', '50013'),
-    ('52018', '2020-06-11', '2020-06-11', '2025-06-11',  'Suzuki Access 125', 'T5JAIM021', '5000', '50018', '50015'),
-    ('52019', '2017-03-03', '2017-03-03', '2022-03-03',  'TVS NTORQ', 'T5BOLW938', '5000', '50019', '50014'),
-    ('52020', '2016-05-04', '2016-05-04', '2021-05-04',  'TVS Jupiter', 'T5DUMA327', '5000', '50020', '50017');
+    ('51401', '2020-02-08', '2020-02-08', '2025-02-08',  'Honda Activa 6G standard', 'T5KSHD345', '5000', '51001', '50205'),
+    ('51402', '2017-04-01', '2017-04-01', '2023-04-01',  'Honda Activa 125', 'T5EION8500', '3000', '51002', '50208'),
+    ('51403', '2020-06-08', '2020-06-08', '2026-06-08',  'Maruti Suzuki S-Presso LXI', 'T5BRUH420', '9000', '51003', '50203'),
+    ('51404', '2014-09-29', '2014-09-29', '2021-09-29',  'Honda Activa 6G standard', 'T5LISR699', '3000', '51004', '50201'),
+    ('51405', '2019-07-04', '2019-07-04', '2024-07-04',  'Volkswagen T-Roc', 'T5LSHI374', '9000', '51005', '50204'),
+    ('51406', '2020-12-09', '2020-12-09', '2025-12-09',  'Mahindra XUV500 W5', 'T5LSEI236', '5000', '51006', '50206'),
+    ('51407', '2020-10-23', '2020-10-23', '2025-10-23',  'Skoda Rapid', 'T5KENS902', '9000', '51007', '50207'),
+    ('51408', '2019-05-29', '2019-05-29', '2024-05-29',  'Volvo XC90 2.0 D5 Momentum AT 4WD', 'T5EHIV234', '5000', '51008', '50202'),
+    ('51409', '2016-11-06', '2016-11-06', '2021-11-06',  'Toyota Urban Cruiser', 'T5QEID230', '9000', '51009', '50209'),
+    ('51410', '2020-09-08', '2020-09-08', '2026-09-08',  'Honda Activa 6G standard', 'T5QEWN382', '6000', '51010', '50220'),
+    ('51411', '2020-07-10', '2020-07-10', '2025-07-10',  'Elife Air 20 T Folding Bikes/Folding Cycle', 'T5TYST969', '4000', '51011', '50210'),
+    ('51412', '2018-12-10', '2018-12-10', '2023-12-10',  'Husqvarna Svartpilen 250', 'T5BSDK133', '9000', '51012', '50218'),
+    ('51413', '2017-01-02', '2017-01-02', '2022-01-02',  'TVS XL100', 'T5SALE387', '2000', '51013', '50219'),
+    ('51414', '2018-11-10', '2018-11-10', '2023-11-10',  'Bianchi C-sport Cross 29 T Hybrid Cycle', 'T5CHOU392', '6000', '51014', '50212'),
+    ('51415', '2019-02-09', '2019-02-09', '2025-02-09', 'Royal Enfield Classic 350', 'T5LEOW783', '9000', '51015', '50211'),
+    ('51416', '2018-10-06', '2018-10-06', '2024-10-06', 'Honda Activa 125', 'T5KJEI280', '3000', '51016', '50216'),
+    ('51417', '2018-04-28', '2018-04-28', '2023-04-28',  'Bajaj Pulsar 150', 'T5FCUK038', '5000', '51017', '50213'),
+    ('51418', '2020-06-11', '2020-06-11', '2025-06-11',  'Suzuki Access 125', 'T5JAIM021', '5000', '51018', '50215'),
+    ('51419', '2017-03-03', '2017-03-03', '2022-03-03',  'TVS NTORQ', 'T5BOLW938', '5000', '51019', '50214'),
+    ('51420', '2016-05-04', '2016-05-04', '2021-05-04',  'TVS Jupiter', 'T5DUMA327', '5000', '51020', '50217');
 -- TABLE 15
 CREATE TABLE IF NOT EXISTS T5_STAFF
 (
