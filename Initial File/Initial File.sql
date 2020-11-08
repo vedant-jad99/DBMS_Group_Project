@@ -27,26 +27,26 @@ CUST_PPS_Number INTEGER NULL ,
 CONSTRAINT XPKCUSTOMER PRIMARY KEY (CUST_Id)
 );
 CREATE UNIQUE INDEX XPKCUSTOMER_1 ON T5_CUSTOMER (Cust_Id ASC);
-INSERT INTO T5_CUSTOMER VALUES (50001, 'Aakash', 'Tiwari', 20000906, 'M','Lucknow',6969696969,'18bcs001@iiitdwd.ac.in', 9104658395, 'Single', 100 );
-INSERT INTO T5_CUSTOMER VALUES (50002, 'Yashdeep ', ' Shetty ',19991204 , 'F','Mumbai ',9696969696 ,'18bcs092@iiitdwd.ac.in ', 7583947392, 'Married ', 10 );
-INSERT INTO T5_CUSTOMER VALUES (50003, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50004, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50005, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50006, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50007, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50008, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50009, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50010, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50011, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50012, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50013, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50014, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50015, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50016, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50017, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50018, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50019, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
-INSERT INTO T5_CUSTOMER VALUES (50020, 'Rutvik  ', 'Yamkanmaradi  ',19990723 ,'M','Banglore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50201, 'Aakash', 'Tiwari', 20000906, 'M','Lucknow',6969696969,'18bcs001@iiitdwd.ac.in', 9104658395, 'Single', 100 );
+INSERT INTO T5_CUSTOMER VALUES (50202, 'Yashdeep ', ' Shetty ',19991204 , 'F','Mumbai ',9696969696 ,'18bcs092@iiitdwd.ac.in ', 7583947392, 'Married ', 10 );
+INSERT INTO T5_CUSTOMER VALUES (50203, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50204, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50205, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50206, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50207, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50208, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50209, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50210, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50211, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50212, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50213, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50214, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50215, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50216, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50217, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50218, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50219, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
+INSERT INTO T5_CUSTOMER VALUES (50220, 'Rutvik  ', 'Yamkanmardi  ',19990723 ,'M','Bangalore ',8007568394 ,'18bcs082@iitdwd.ac.in ', 7496758364,'Divorced', 32);
 #insert into T5_CUSTOMER values (, '  ', '  ', , ' ','  ', ,' @gmail.com', , ' ',  ); <- Dont delete this
 -- Table 3
 CREATE TABLE IF NOT EXISTS T5_INCIDENT_REPORT
@@ -190,26 +190,26 @@ CREATE UNIQUE INDEX XPKAPPLICATION_2 ON T5_APPLICATION
 -- INSERT VALUES FORMAT
 -- ('50001.....50020', '71001....71020', 'ACCEPTED|PENDING|REJECTED', 'Liability Coverage|Uninsured And Underinsured Motorist Coverage|Comprehensive Coverage|Collision Coverage|Medical Payments Coverage|Personal Injury Protection', '5001..50020')
 INSERT INTO T5_APPLICATION VALUES
-	('50001', '71001', 'PENDING', 'Liability Coverage', '5005'),
-    ('50002', '71002', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '5008'),
-    ('50003', '71003', 'PENDING', 'Comprehensive Coverage', '5003'),
-    ('50004', '71004', 'REJECTED', 'Collision Coverage', '5001'),
-    ('50005', '71005', 'ACCEPTED', 'Medical Payments Coverage', '5004'),
-    ('50006', '71006', 'PENDING', 'Personal Injury Protection', '5006'),
-    ('50007', '71007', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '5007'),
-    ('50008', '71008', 'ACCEPTED', 'Liability Coverage', '5002'),
-    ('50009', '71009', 'REJECTED', 'Medical Payments Coverage', '5009'),
-    ('50010', '71010', 'PENDING', 'Medical Payments Coverage', '50020'),
-    ('50011', '71011', 'PENDING', 'Liability Coverage', '50010'),
-    ('50012', '71012', 'REJECTED', 'Comprehensive Coverage', '50018'),
-    ('50013', '71013', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50019'),
-    ('50014', '71014', 'ACCEPTED', 'Medical Payments Coverage', '50012'),
-    ('50015', '71015', 'REJECTED', 'Collision Coverage', '50011'),
-    ('50016', '71016', 'ACCEPTED', 'Liability Coverage', '50016'),
-    ('50017', '71017', 'REJECTED', 'Personal Injury Protection', '50013'),
-    ('50018', '71018', 'PENDING', 'Personal Injury Protection', '50015'),
-    ('50019', '71019', 'ACCEPTED', 'Comprehensive Coverage', '50014'),
-    ('50020', '71020', 'REJECTED', 'Collision Coverage', '50017');
+	('51001', '71001', 'PENDING', 'Liability Coverage', '5005'),
+    ('51002', '71002', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '5008'),
+    ('51003', '71003', 'PENDING', 'Comprehensive Coverage', '5003'),
+    ('51004', '71004', 'REJECTED', 'Collision Coverage', '5001'),
+    ('51005', '71005', 'ACCEPTED', 'Medical Payments Coverage', '5004'),
+    ('51006', '71006', 'PENDING', 'Personal Injury Protection', '5006'),
+    ('51007', '71007', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '5007'),
+    ('51008', '71008', 'ACCEPTED', 'Liability Coverage', '5002'),
+    ('51009', '71009', 'REJECTED', 'Medical Payments Coverage', '5009'),
+    ('51010', '71010', 'PENDING', 'Medical Payments Coverage', '50020'),
+    ('51011', '71011', 'PENDING', 'Liability Coverage', '50010'),
+    ('51012', '71012', 'REJECTED', 'Comprehensive Coverage', '50018'),
+    ('51013', '71013', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50019'),
+    ('51014', '71014', 'ACCEPTED', 'Medical Payments Coverage', '50012'),
+    ('51015', '71015', 'REJECTED', 'Collision Coverage', '50011'),
+    ('51016', '71016', 'ACCEPTED', 'Liability Coverage', '50016'),
+    ('51017', '71017', 'REJECTED', 'Personal Injury Protection', '50013'),
+    ('51018', '71018', 'PENDING', 'Personal Injury Protection', '50015'),
+    ('51019', '71019', 'ACCEPTED', 'Comprehensive Coverage', '50014'),
+    ('51020', '71020', 'REJECTED', 'Collision Coverage', '50017');
 -- TABLE 11
 
 CREATE TABLE IF NOT EXISTS T5_INSURANCE_POLICY
