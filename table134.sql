@@ -68,7 +68,7 @@ INSERT INTO T5_INSURANCE_COMPANY(' Future Generali India Life Insurance Company 
 INSERT INTO T5_INSURANCE_COMPANY('IDBI Federal Life Insurance Company Limited','3-5-922 Sri Sai Balaji Residency, Near Narayanaguda Flyover, Hyderabad, Telangana 500029','1089 Appasaheb Marathe Marg, Prabhadevi, Mumbai',6878605410620,68744545600,'IDBIFederallife@help.com','IDBIFederallife.com','IDBI Federallifeoffice','IDBIFederallifeoffice');
 INSERT INTO T5_INSURANCE_COMPANY(' Canara HSBC Oriental Bank of Commerce LIC Limited','206 & 207, 2nd Floor, Aditya Trade Center, 7-1-618, Ameerpet, Hyderabad, Telangana 500038','1089 Appasaheb Marathe Marg, Prabhadevi, Mumbai',6804764554,184556622020,'Canaralife@help.com','Canaralife.com','Canaralifeoffice','Canaralifeoffice');
 INSERT INTO T5_INSURANCE_COMPANY('Aegon Life Insurance Company Limited','206 & 207, 2nd Floor, Aditya Trade Center, 7-1-618, Ameerpet, Hyderabad, Telangana 500038','1089 Appasaheb Marathe Marg, Prabhadevi, Mumbai',1900010020,5566565220,'Aegonlife@help.com','Aegonlife.com','Aegonlifeoffice','Aegonlifeoffice');
-INSERT INTO T5_INSURANCE_COMPANY('DLF Pramerica Life Insurance Company Limited','Office No.501- 520, on 5th floor, Bezzola Complex C.H.S. Ltd., S. No. 237, C.S. No. 353, 352/2, 353/3, 353/4, Sion Trombay Road,',19010020010020,5566889020,'DLFlife@help.com','DLFlife.com','DLFlifeoffice','DLFlifeoffice');
+INSERT INTO T5_INSURANCE_COMPANY(DLF Pramerica Life Insurance Company Limited','Office No.501- 520, on 5th floor, Bezzola Complex C.H.S. Ltd., S. No. 237, C.S. No. 353, 352/2, 353/3, 353/4, Sion Trombay Road,',19010020010020,5566889020,'DLFlife@help.com','DLFlife.com','DLFlifeoffice','DLFlifeoffice');
 
 
 
