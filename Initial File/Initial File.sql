@@ -434,10 +434,10 @@ Address VARCHAR(20) NOT NULL ,
 Admin_Cost INTEGER NULL , 
 Staff VARCHAR(50) NULL ,
 Department_Name VARCHAR(20) NOT NULL , 
+Department_Id VARCHAR(20) NOT NULL ,
 Company_Name VARCHAR(20) NOT NULL , 
 CONSTRAINT XPKOFFICE_11 PRIMARY KEY(Office_Name,Department_Name,Company_Name),
-CONSTRAINT R_104 FOREIGN KEY (Department_Name) REFERENCES T5_DEPARTMENT (Department_Name),
-CONSTRAINT R_1055 FOREIGN KEY (Company_Name) REFERENCES T5_DEPARTMENT (Company_Name)
+CONSTRAINT R_104 FOREIGN KEY (Department_Name, Department_Id, Company_Name) REFERENCES T5_DEPARTMENT (Department_Name, Department_Id, Company_Name)
 );
 CREATE UNIQUE INDEX XPKOFFICE_11 ON T5_OFFICE (Office_Name ASC,Department_Name ASC,Company_Name ASC);
 
