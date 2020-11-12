@@ -353,7 +353,7 @@ CREATE TABLE T5_NOK
 Nok_Id VARCHAR(20) NOT NULL ,
 Nok_Name VARCHAR(20) NULL ,
 Nok_Address VARCHAR(200) NULL ,
-Nok_Phone_Number BIG INT NULL ,
+Nok_Phone_Number BIGINT NULL ,
 Nok_Gender CHAR(2) NULL ,
 Nok_Marital_Status CHAR(8) NULL ,
 Agreement_id VARCHAR(20) NOT NULL ,
