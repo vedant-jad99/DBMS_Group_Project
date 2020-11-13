@@ -97,6 +97,24 @@ REFERENCES T5_INSURANCE_COMPANY (Company_Name)
 );
 CREATE UNIQUE INDEX XPKDEPARTMENT ON T5_DEPARTMENT
 (Department_Name ASC,Department_ID ASC,Company_Name ASC);
+INSERT INTO T5_APPLICATION VALUES
+     ('Underwriting Department', '50501', 'vishal kotwal', '', 'apple'),
+     ('Claims Department', '50502', 'ruthvik', '', 'google'),
+     ('Legal Department', '50506', 'jay bhanushali', '', 'oracle'),
+     ('Audit Department', '50507', 'namratha', '', 'micromax'),
+     ('Agency Department', '50508', 'raghav', '', 'mi'),
+     ('Marketing Department', '50509', 'kotwal rama', '', 'bottle'),
+     ('Reinsurance Department', '50510', 'jay bheem', '', 'bicoin'),
+     ('Audit Department', '50511', 'ramakrishana', '', 'a'),
+     ('Legal Department', '50512', 'bhargav', '', 'apple'),
+     ('Investment Department', '50513', 'goldi jaydev', '', 'apple'),
+     ('Accounting Department', '50514', 'yamkam', '', 'apple'),
+     ('Actuarial and Statistical Department', '50515', 'varsha', '', 'apple'),
+     ('Underwriting Department', '50516', 'rama prekaash', '', 'apple'),
+     ('Claims Department', '50517', 'kanchan', '', 'apple'),
+     ('Underwriting Department', '50518', 'bheemma', '', 'apple'),
+   
+
 
 -- Table 6
 
@@ -118,6 +136,27 @@ Department_ID, Company_Name)
 );
 CREATE UNIQUE INDEX XPKVEHICLE_SERVICE ON T5_VEHICLE_SERVICE
 (Vehicle_Service_Company_Name ASC,Department_Name ASC);
+INSERT INTO T5_APPLICATION VALUES
+    ('51001', '50701', 'PENDING', 'Liability Coverage', '50205'),
+    ('51002', '50702', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50208'),
+    ('51003', '50703', 'PENDING', 'Comprehensive Coverage', '50203'),
+    ('51004', '50704', 'REJECTED', 'Collision Coverage', '50201'),
+    ('51005', '50705', 'ACCEPTED', 'Medical Payments Coverage', '50204'),
+    ('51006', '50706', 'PENDING', 'Personal Injury Protection', '50206'),
+    ('51007', '50707', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '50207'),
+    ('51008', '50708', 'ACCEPTED', 'Liability Coverage', '50202'),
+    ('51009', '50709', 'REJECTED', 'Medical Payments Coverage', '50209'),
+    ('51010', '50710', 'PENDING', 'Medical Payments Coverage', '50220'),
+    ('51011', '50711', 'PENDING', 'Liability Coverage', '50210'),
+    ('51012', '50712', 'REJECTED', 'Comprehensive Coverage', '50218'),
+    ('51013', '50713', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50219'),
+    ('51014', '50714', 'ACCEPTED', 'Medical Payments Coverage', '50212'),
+    ('51015', '50715', 'REJECTED', 'Collision Coverage', '50211'),
+    ('51016', '50716', 'ACCEPTED', 'Liability Coverage', '50216'),
+    ('51017', '50717', 'REJECTED', 'Personal Injury Protection', '50213'),
+    ('51018', '50718', 'PENDING', 'Personal Injury Protection', '50215'),
+    ('51019', '50719', 'ACCEPTED', 'Comprehensive Coverage', '50214'),
+    ('51020', '50720', 'REJECTED', 'Collision Coverage', '50217');
 
 -- Table 7
 -- vehicle id = 50701....50720
@@ -142,6 +181,27 @@ CONSTRAINT R_92 FOREIGN KEY (Cust_Id) REFERENCES T5_CUSTOMER
 (Cust_Id)
 );
 CREATE UNIQUE INDEX XPKVEHICLE_6 ON T5_VEHICLE (Vehicle_Id ASC,Cust_Id ASC);
+INSERT INTO T5_APPLICATION VALUES
+    ('51001', '50701', 'PENDING', 'Liability Coverage', '50205'),
+    ('51002', '50702', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50208'),
+    ('51003', '50703', 'PENDING', 'Comprehensive Coverage', '50203'),
+    ('51004', '50704', 'REJECTED', 'Collision Coverage', '50201'),
+    ('51005', '50705', 'ACCEPTED', 'Medical Payments Coverage', '50204'),
+    ('51006', '50706', 'PENDING', 'Personal Injury Protection', '50206'),
+    ('51007', '50707', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '50207'),
+    ('51008', '50708', 'ACCEPTED', 'Liability Coverage', '50202'),
+    ('51009', '50709', 'REJECTED', 'Medical Payments Coverage', '50209'),
+    ('51010', '50710', 'PENDING', 'Medical Payments Coverage', '50220'),
+    ('51011', '50711', 'PENDING', 'Liability Coverage', '50210'),
+    ('51012', '50712', 'REJECTED', 'Comprehensive Coverage', '50218'),
+    ('51013', '50713', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50219'),
+    ('51014', '50714', 'ACCEPTED', 'Medical Payments Coverage', '50212'),
+    ('51015', '50715', 'REJECTED', 'Collision Coverage', '50211'),
+    ('51016', '50716', 'ACCEPTED', 'Liability Coverage', '50216'),
+    ('51017', '50717', 'REJECTED', 'Personal Injury Protection', '50213'),
+    ('51018', '50718', 'PENDING', 'Personal Injury Protection', '50215'),
+    ('51019', '50719', 'ACCEPTED', 'Comprehensive Coverage', '50214'),
+    ('51020', '50720', 'REJECTED', 'Collision Coverage', '50217');
 
 -- TABLE 8
 CREATE TABLE T5_PREMIUM_PAYMENT
