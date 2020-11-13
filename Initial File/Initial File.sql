@@ -100,19 +100,22 @@ CREATE UNIQUE INDEX XPKDEPARTMENT ON T5_DEPARTMENT
 INSERT INTO T5_APPLICATION VALUES
      ('Underwriting Department', '50501', 'vishal kotwal', '', 'apple'),
      ('Claims Department', '50502', 'ruthvik', '', 'google'),
-     ('Legal Department', '50506', 'jay bhanushali', '', 'oracle'),
+     ('Legal Department', '50503', 'jay bhanushali', '', 'oracle'),
+     ('Legal Department', '50504', 'jay ', '', 'DC'),
+     ('Legal Department', '50505', 'bhanushali', '', 'quantum'),
+     ('Legal Department', '50506', 'sahedev', '', 'jio'),
      ('Audit Department', '50507', 'namratha', '', 'micromax'),
      ('Agency Department', '50508', 'raghav', '', 'mi'),
      ('Marketing Department', '50509', 'kotwal rama', '', 'bottle'),
      ('Reinsurance Department', '50510', 'jay bheem', '', 'bicoin'),
-     ('Audit Department', '50511', 'ramakrishana', '', 'a'),
+     ('Audit Department', '50511', 'ramakrishana', '', 'oracle'),
      ('Legal Department', '50512', 'bhargav', '', 'apple'),
      ('Investment Department', '50513', 'goldi jaydev', '', 'apple'),
-     ('Accounting Department', '50514', 'yamkam', '', 'apple'),
-     ('Actuarial and Statistical Department', '50515', 'varsha', '', 'apple'),
-     ('Underwriting Department', '50516', 'rama prekaash', '', 'apple'),
-     ('Claims Department', '50517', 'kanchan', '', 'apple'),
-     ('Underwriting Department', '50518', 'bheemma', '', 'apple'),
+     ('Accounting Department', '50514', 'yamkam', '', 'jio'),
+     ('Actuarial and Statistical Department', '50515', 'varsha', '', 'google'),
+     ('Underwriting Department', '50516', 'rama prekaash', '', 'mi'),
+     ('Claims Department', '50517', 'kanchan', '', 'bottle'),
+     ('Underwriting Department', '50518', 'bheemma', '', 'bitcoin'),
    
 
 
@@ -578,3 +581,4 @@ CONSTRAINT R_90 FOREIGN KEY (Claim_Id, Cust_Id) REFERENCES T5_CLAIM
 CREATE UNIQUE INDEX XPKCLAIM_SETTLEMENT_8 ON
 T5_CLAIM_SETTLEMENT
 (Claim_Settlement_Id ASC,Claim_Id ASC,Cust_Id ASC);
+  
