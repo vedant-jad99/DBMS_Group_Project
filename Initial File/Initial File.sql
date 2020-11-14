@@ -97,22 +97,25 @@ REFERENCES T5_INSURANCE_COMPANY (Company_Name)
 );
 CREATE UNIQUE INDEX XPKDEPARTMENT ON T5_DEPARTMENT
 (Department_Name ASC,Department_ID ASC,Company_Name ASC);
-INSERT INTO T5_APPLICATION VALUES
-     ('Underwriting Department', '50501', 'vishal kotwal', '', 'apple'),
-     ('Claims Department', '50502', 'ruthvik', '', 'google'),
-     ('Legal Department', '50506', 'jay bhanushali', '', 'oracle'),
-     ('Audit Department', '50507', 'namratha', '', 'micromax'),
-     ('Agency Department', '50508', 'raghav', '', 'mi'),
-     ('Marketing Department', '50509', 'kotwal rama', '', 'bottle'),
-     ('Reinsurance Department', '50510', 'jay bheem', '', 'bicoin'),
-     ('Audit Department', '50511', 'ramakrishana', '', 'a'),
-     ('Legal Department', '50512', 'bhargav', '', 'apple'),
-     ('Investment Department', '50513', 'goldi jaydev', '', 'apple'),
-     ('Accounting Department', '50514', 'yamkam', '', 'apple'),
-     ('Actuarial and Statistical Department', '50515', 'varsha', '', 'apple'),
-     ('Underwriting Department', '50516', 'rama prekaash', '', 'apple'),
-     ('Claims Department', '50517', 'kanchan', '', 'apple'),
-     ('Underwriting Department', '50518', 'bheemma', '', 'apple'),
+INSERT INTO T5_DEPARTMENT VALUES 	
+     ('Underwriting Department', '50501', 'vishal kotwal', ' Bajaj Allianz Vehicle Insurance Company Limited'),
+     ('Claims Department', '50502', 'ruthvik', 'Birla Sun Vehicle Insurance Company Limited'),
+     ('Legal Department', '50503', 'jay bhanushali', 'HDFC Vehicle Insurance Company Limited'),
+     ('Legal Department', '50504', 'jay ', 'ICICI Prudential Vehicle Insurance Company Limited'),
+     ('Legal Department', '50505', 'bhanushali', 'Exide Vehicle Insurance Company Limited'),
+     ('Legal Department', '50506', 'sahedev', 'Vehicle Insurance Corporation of India'),
+     ('Audit Department', '50507', 'namratha','Tata AIA Vehicle Insurance Company Limited'),
+     ('Agency Department', '50508', 'raghav', ' Future Generali India Vehicle Insurance Company Limited'),
+     ('Marketing Department', '50509', 'kotwal rama', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Reinsurance Department', '50510', 'jay bheem',' Canara HSBC Oriental Bank of Commerce LIC Limited'),
+     ('Audit Department', '50511', 'ramakrishana', 'Aegon Vehicle Insurance Company Limited'),
+     ('Legal Department', '50512', 'bhargav', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Investment Department', '50513', 'goldi jaydev', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Accounting Department', '50514', 'yamkam', 'Shriram Vehicle Insurance Company Limited'),
+     ('Actuarial and Statistical Department', '50515', 'varsha', 'Shriram Vehicle Insurance Company Limited'),
+     ('Underwriting Department', '50516', 'rama prekaash', 'Shriram Vehicle Insurance Company Limited'),
+     ('Claims Department', '50517', 'kanchan', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Underwriting Department', '50518', 'bheemma', ' Canara HSBC Oriental Bank of Commerce LIC Limited');
    
 
 
@@ -136,31 +139,29 @@ Department_ID, Company_Name)
 );
 CREATE UNIQUE INDEX XPKVEHICLE_SERVICE ON T5_VEHICLE_SERVICE
 (Vehicle_Service_Company_Name ASC,Department_Name ASC);
-INSERT INTO T5_APPLICATION VALUES
-    ('51001', '50701', 'PENDING', 'Liability Coverage', '50205'),
-    ('51002', '50702', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50208'),
-    ('51003', '50703', 'PENDING', 'Comprehensive Coverage', '50203'),
-    ('51004', '50704', 'REJECTED', 'Collision Coverage', '50201'),
-    ('51005', '50705', 'ACCEPTED', 'Medical Payments Coverage', '50204'),
-    ('51006', '50706', 'PENDING', 'Personal Injury Protection', '50206'),
-    ('51007', '50707', 'PENDING', 'Uninsured And Underinsured Motorist Coverage', '50207'),
-    ('51008', '50708', 'ACCEPTED', 'Liability Coverage', '50202'),
-    ('51009', '50709', 'REJECTED', 'Medical Payments Coverage', '50209'),
-    ('51010', '50710', 'PENDING', 'Medical Payments Coverage', '50220'),
-    ('51011', '50711', 'PENDING', 'Liability Coverage', '50210'),
-    ('51012', '50712', 'REJECTED', 'Comprehensive Coverage', '50218'),
-    ('51013', '50713', 'ACCEPTED', 'Uninsured And Underinsured Motorist Coverage', '50219'),
-    ('51014', '50714', 'ACCEPTED', 'Medical Payments Coverage', '50212'),
-    ('51015', '50715', 'REJECTED', 'Collision Coverage', '50211'),
-    ('51016', '50716', 'ACCEPTED', 'Liability Coverage', '50216'),
-    ('51017', '50717', 'REJECTED', 'Personal Injury Protection', '50213'),
-    ('51018', '50718', 'PENDING', 'Personal Injury Protection', '50215'),
-    ('51019', '50719', 'ACCEPTED', 'Comprehensive Coverage', '50214'),
-    ('51020', '50720', 'REJECTED', 'Collision Coverage', '50217');
+INSERT INTO T5_VEHICLE_SERVICE VALUES 	
+     ('Underwriting Department','','pune','9945610045','vishal kotwal','full-service','50501', ' Bajaj Allianz Vehicle Insurance Company Limited'),
+     ('Claims Department','','pune','9945610345', 'ruthvik','half-service','50502','Birla Surance Company Limited'),
+     ('Legal Department', '','bangalore','9945610545','jay bhanushali','full-service','50503',  'HDFsurance Company Limited'),
+     ('Legal Department', '','kolkata','9945610745','jay ','half-service','50504', rudential Vehic 'ICICI Ple Insurance Company Limited'),
+     ('Legal Department','','delhi','9945610085', 'bhanushali','half-service','50505',  'Ele Insurance Company Limited'),
+     ('Legal Department', '','nagpur','9945630045','sahedev','full-service','50506',  'Vehicle Insurance Corporation of India'),
+     ('Audit Department','','oty','9945615045', 'namratha','half-service','50507', 'Tata AIA Vehicle Insurance Company Limited'),
+     ('Agency Department','','jaipur','9945110045', 'raghav','full-service','50508',' Future Generali India Vehicle Insurance Company Limited'),
+     ('Marketing Department', '','raipur','8945610045','kotwal rama','half-service','50509',  'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Reinsurance Department', '','solapur','9946610045','jay bheem','half-service','50510', ' Canara HSBC Oriental Bank of Commerce LIC Limited'),
+     ('Audit Department', '','kolapur','9945610040','ramakrishana','full-service','50511','Aegon Vehicle Insurance Company Limited'),
+     ('Legal Department', '','thane','9945610041','bhargav','half-service','50512',  'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Investment Department', '','udpi','9945610043','goldi jaydev','full-service','50513', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Accounting Department','','yeswanthpur', '9945610044','yamkam','half-service','50514',  'Shriram Vehicle Insurance Company Limited'),
+     ('Actuarial and Statistical Department','','hubli','9945610075', 'varsha','full-service','50515', 'Shriram Vehicle Insurance Company Limited'),
+     ('Underwriting Department','','dharwad','9945610048', 'rama prekaash', 'half-service','50516', 'Shriram Vehicle Insurance Company Limited'),
+     ('Claims Department', '','chennai','9945610049','kanchan', 'half-service','50517', 'IDBI Federal Vehicle Insurance Company Limited'),
+     ('Underwriting Department', '','lucknow','9945699045', 'bheemma','full-service','50518', ' Canara HSBC Oriental Bank of Commerce LIC L
 
 -- Table 7
--- vehicle id = 50701....50720
-CREATE TABLE T5_VEHICLE
+--imited'); vehicle id = 50720
+CREAT701....50E TABLE T5_VEHICLE
 (
 Vehicle_Id VARCHAR(20) NOT NULL ,
 Policy_Id VARCHAR(20) NULL ,
@@ -578,3 +579,4 @@ CONSTRAINT R_90 FOREIGN KEY (Claim_Id, Cust_Id) REFERENCES T5_CLAIM
 CREATE UNIQUE INDEX XPKCLAIM_SETTLEMENT_8 ON
 T5_CLAIM_SETTLEMENT
 (Claim_Settlement_Id ASC,Claim_Id ASC,Cust_Id ASC);
+  
