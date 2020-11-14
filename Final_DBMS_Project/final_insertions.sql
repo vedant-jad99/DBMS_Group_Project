@@ -374,6 +374,7 @@ INSERT INTO T5_NOK values('51617','Vishalini Kotwal','Hyderabad','8952036512','F
 INSERT INTO T5_NOK values('51618','Rehan Shaikh','Bangalore','9267412365','Male', 'Married','51118' , '51015','50215');
 INSERT INTO T5_NOK values('51619','Bhavya Trivedi','Jabalpur','7845201569','Female', 'Single','51119' ,'51014' ,'50214');
 INSERT INTO T5_NOK values('51620','Bhavya Trivedi','Jabal','7845101569','Female', 'Single','51119' ,'51014' ,'50214');   
+-- last two insertions have the same value , change them.
  -- table 17
  
  INSERT INTO T5_PRODUCT values
