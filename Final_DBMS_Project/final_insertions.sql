@@ -96,14 +96,14 @@ INSERT INTO T5_INSURANCE_COMPANY VALUES('Aegon Vehicle Insurance Company Limited
 INSERT INTO T5_INSURANCE_COMPANY VALUES('DLF Pramerica Vehicle Insurance Company Limited','Office No.501- 520, on 5th floor, Bezzola Complex C.H.S. Ltd., S. No. 237, C.S. No. 353, 352/2, 353/3, 353/4, Sion Trombay Road,',19010020010020,5566889020,'DLFVehicle@help.com','DLFVehicle.com','Sion','DLFVehicleoffice','DLFVehicleoffice');
 
 -- table 5
-INSERT INTO T5_Department VALUES 	
+INSERT INTO T5_DEPARTMENT VALUES 	
      ('Underwriting Department', '50501', 'vishal kotwal', ' Bajaj Allianz Vehicle Insurance Company Limited'),
      ('Claims Department', '50502', 'ruthvik', 'Birla Sun Vehicle Insurance Company Limited'),
      ('Legal Department', '50503', 'jay bhanushali', 'HDFC Vehicle Insurance Company Limited'),
      ('Legal Department', '50504', 'jay ', 'ICICI Prudential Vehicle Insurance Company Limited'),
      ('Legal Department', '50505', 'bhanushali', 'Exide Vehicle Insurance Company Limited'),
-     ('Legal Department', '50506', 'sahedev', 'Vehicle Insurance Corporation of India'),
-     ('Audit Department', '50507', 'namratha','Tata AIA Vehicle Insurance Company Limited'),
+     ('Legal Department', '50506', 'sahedev', 'Kotak Vehicle Insurance Company Limited'),
+     ('Audit Department', '50507', 'namratha','SBI Vehicle Insurance Company Limited'),
      ('Agency Department', '50508', 'raghav', ' Future Generali India Vehicle Insurance Company Limited'),
      ('Marketing Department', '50509', 'kotwal rama', 'IDBI Federal Vehicle Insurance Company Limited'),
      ('Reinsurance Department', '50510', 'jay bheem',' Canara HSBC Oriental Bank of Commerce LIC Limited'),
@@ -114,15 +114,19 @@ INSERT INTO T5_Department VALUES
      ('Actuarial and Statistical Department', '50515', 'varsha', 'Shriram Vehicle Insurance Company Limited'),
      ('Underwriting Department', '50516', 'rama prekaash', 'Shriram Vehicle Insurance Company Limited'),
      ('Claims Department', '50517', 'kanchan', 'IDBI Federal Vehicle Insurance Company Limited'),
-     ('Underwriting Department', '50518', 'bheemma', ' Canara HSBC Oriental Bank of Commerce LIC Limited');
+     ('Underwriting Department', '50518', 'bheemma', ' Canara HSBC Oriental Bank of Commerce LIC Limited'),
+	 ('Claims and audit Department', '50519', 'ruthvika', 'Birla Sun Vehicle Insurance Company Limited'),
+     ('Claims and audit loss Department', '50520', 'ruthvika', 'Birla Sun Vehicle Insurance Company Limited'),
+     ('Claims and audit profit Department', '50521', 'ruthvikay', 'Birla Sun Vehicle Insurance Company Limited');
+     
 -- table 6
 INSERT INTO T5_VEHICLE_SERVICE VALUES ('Underwriting Department','AB','pune','9945610045','vishal kotwal','full-service','50501', ' Bajaj Allianz Vehicle Insurance Company Limited');
 INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Claims Department','CD','pune','9945610345', 'ruthvik','half-service','50502','Birla Sun Vehicle Insurance Company Limited');
 INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Legal Department','EF','bangalore','9945610545','jay bhanushali','full-service','50503',  'HDFC Vehicle Insurance Company Limited');
 INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Legal Department','GH','kolkata','9945610745','jay ','half-service','50504', 'ICICI Prudential Vehicle Insurance Company Limited');
 INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Legal Department','IJ','delhi','9945610085', 'bhanushali','half-service','50505',  'Exide Vehicle Insurance Company Limited');
-INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Legal Department','KL','nagpur','9945630045','sahedev','full-service','50506',  'Vehicle Insurance Corporation of India');
-INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Audit Department','MN','oty','9945615045', 'namratha','half-service','50507', 'Tata AIA Vehicle Insurance Company Limited');
+INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Legal Department','KL','nagpur','9945630045','sahedev','full-service','50506',  'Kotak Vehicle Insurance Company Limited');
+INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Audit Department','MN','oty','9945615045', 'namratha','half-service','50507', 'SBI Vehicle Insurance Company Limited');
 INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Agency Department','OP','jaipur','9945110045', 'raghav','full-service','50508',' Future Generali India Vehicle Insurance Company Limited');
  INSERT INTO T5_VEHICLE_SERVICE VALUES    ('Marketing Department','QR','raipur','8945610045','kotwal rama','half-service','50509',  'IDBI Federal Vehicle Insurance Company Limited');
  INSERT INTO T5_VEHICLE_SERVICE VALUES    ('Reinsurance Department','ST','solapur','9946610045','jay bheem','half-service','50510', ' Canara HSBC Oriental Bank of Commerce LIC Limited');
@@ -136,49 +140,48 @@ INSERT INTO T5_VEHICLE_SERVICE VALUES     ('Claims Department','DD','chennai','9
  INSERT INTO T5_VEHICLE_SERVICE VALUES    ('Underwriting Department','EE','lucknow','9945699045', 'bheemma','full-service','50518', ' Canara HSBC Oriental Bank of Commerce LIC LIMITED');
 
  -- table 7
-INSERT INTO T5_VEHICLE VALUES
-	('50701', '5551100', 'MH 01 AZ 9009', 1000000, '4 wheeler', 15.4, 4, 'Skoda', 51701, 52701, 'MCM00991101', 'RTX-500100', '50208'),
-    ('50702', '5655192', 'KA 09 BY 8118', 500000, '4 wheeler', 12.8, 4, 'TATA', 51702, 52702, 'MJS10901301', 'RTX-780100', '50211'),
-    ('50703', '2989893', 'MH 11 CX 7227', 750000, '4 wheeler', 12.8, 4, 'TATA', 51703, 52703, 'MCM03020901', 'RTX-589900', '50201'),
-    ('50704', '3203290', 'MH 35 DW 6336', 1200000, '4 wheeler', 19.4, 6, 'Mercedes', 51704, 52704, 'SFM05491101', 'RTX-487100', '50202'),
-    ('50705', '7609208', 'GA 02 EV 5445', 1690000, '4 wheeler', 25.4, 8, 'Mahindra', 51705, 52705, 'KLG00994101', 'RTX-848500', '50210'),
-    ('50706', '4880365', 'UP 29 FU 4554', 800000, '4 wheeler', 15.4, 4, 'Maruti', 51706, 52706, 'IDJ00991181', 'RTX-587533', '50215'),
-    ('50707', '6541534', 'MP 56 GT 3663', 900000, '4 wheeler', 19.4, 5, 'Mahindra', 51707, 52707, 'MWO07991101', 'RTX-587130', '50213'),
-    ('50708', '5554515', 'KA 10 HS 2772', 759999, '4 wheeler', 15.4, 4, 'Skoda', 51708, 52708, 'WCM70991171', 'RTX-503452', '50212'),
-    ('50709', '5485110', 'MH 17 IR 1881', 920000, '4 wheeler', 15.4, 4, 'Tata', 51709, 52709, 'LMM82990101', 'RTX-340100', '50218'),
-    ('50710', '8551190', 'RJ 41 JQ 0990', 2300000, '4 wheeler', 25.4, 9, 'BMW', 51710, 52710, 'MPB00771201', 'RTX-450100', '50206'),
-    ('50711', '3949295', 'CH 35 KP 0000', 2500000, '4 wheeler', 25.4, 8, 'AUDI', 51711, 52711, 'MSD00881101', 'RTX-343100', '50211'),
-    ('50712', '1787318', 'MP 27 LO 1111', 1699990, '4 wheeler', 19.4, 6, 'Skoda', 51712, 52712, 'DFM00998641', 'RTX-3450100', '50219'),
-    ('50713', '4621694', 'UP 18 MN 2222', 700000, '4 wheeler', 12.4, 4, 'Maruti', 51713, 52713, 'LSK04591101', 'RTX-5554100', '50220'),
-    ('50714', '9262456', 'GA 09 AB 3333', 1500000, '4 wheeler', 19.4, 6, 'Honda', 51714, 52714, 'AKJ00488101', 'RTX-534100', '50209'),
-    ('50715', '3547518', 'KA 11 CD 4444', 1100000, '4 wheeler', 15.4, 4, 'Ford', 51715, 52715, 'VIJ00978101', 'RTX-5002300', '50214'),
-    ('50716', '9796133', 'MH 07 EF 5555', 1700000, '4 wheeler', 19.4, 5, 'Ford', 51716, 52716, 'SJI00999901', 'RTX-2340100', '50207'),
-    ('50717', '5454545', 'MH 34 GH 6666', 800000, '4 wheeler', 12.4, 4, 'Volkswagon', 51717, 52717, 'SDJ00979101', 'RTX-000100', '50215'),
-    ('50718', '3434329', 'HP 14 HI 7777', 900000, '4 wheeler', 15.4, 4, 'Skoda', 51718, 52718, 'LPA00991877', 'RTX-430100', '50203'),
-    ('50719', '4843466', 'DL 34 JK 8888', 650000, '4 wheeler', 12.4, 4, 'Maruti', 51718, 52719, 'FJJ00998741', 'RTX-5433100', '50208'),
-    ('50720', '7846844', 'MH 12 LM 9999', 1200000, '4 wheeler', 19.4, 6, 'BMW', 51720, 52720, 'DOF00985631', 'RTX-940100', '50210');
+INSERT INTO T5_VEHICLE VALUES ('50701', '5551100', 'MH 01 AZ 9009', 1000000, '4 wheeler', 15.4, 4, 'Skoda', 51701, 52701, 991101, 'RTX-500100', '50208');
+INSERT INTO T5_VEHICLE VALUES    ('50702', '5655192', 'KA 09 BY 8118', 500000, '4 wheeler', 12.8, 4, 'TATA', 51702, 52702, 801301, 'RTX-780100', '50211');
+INSERT INTO T5_VEHICLE VALUES    ('50703', '2989893', 'MH 11 CX 7227', 750000, '4 wheeler', 12.8, 4, 'TATA', 51703, 52703, 320901, 'RTX-589900', '50201');
+INSERT INTO T5_VEHICLE VALUES    ('50704', '3203290', 'MH 35 DW 6336', 1200000, '4 wheeler', 19.4, 6, 'Mercedes', 51704, 52704, 549101, 'RTX-487100', '50202');
+INSERT INTO T5_VEHICLE VALUES    ('50705', '7609208', 'GA 02 EV 5445', 1690000, '4 wheeler', 25.4, 8, 'Mahindra', 51705, 52705, 994100, 'RTX-848500', '50210');
+INSERT INTO T5_VEHICLE VALUES    ('50706', '4880365', 'UP 29 FU 4554', 800000, '4 wheeler', 15.4, 4, 'Maruti', 51706, 52706, 991181, 'RTX-587533', '50215');
+INSERT INTO T5_VEHICLE VALUES    ('50707', '6541534', 'MP 56 GT 3663', 900000, '4 wheeler', 19.4, 5, 'Mahindra', 51707, 52707, 799110, 'RTX-587130', '50213');
+INSERT INTO T5_VEHICLE VALUES    ('50708', '5554515', 'KA 10 HS 2772', 759999, '4 wheeler', 15.4, 4, 'Skoda', 51708, 52708, 991171, 'RTX-503452', '50212');
+INSERT INTO T5_VEHICLE VALUES    ('50709', '5485110', 'MH 17 IR 1881', 920000, '4 wheeler', 15.4, 4, 'Tata', 51709, 52709, 2990101, 'RTX-340100', '50218');
+INSERT INTO T5_VEHICLE VALUES   ('50710', '8551190', 'RJ 41 JQ 0990', 2300000, '4 wheeler', 25.4, 9, 'BMW', 51710, 52710, 771201, 'RTX-450100', '50206');
+INSERT INTO T5_VEHICLE VALUES    ('50711', '3949295', 'CH 35 KP 0000', 2500000, '4 wheeler', 25.4, 8, 'AUDI', 51711, 52711, 881101, 'RTX-343100', '50211');
+INSERT INTO T5_VEHICLE VALUES    ('50712', '1787318', 'MP 27 LO 1111', 1699990, '4 wheeler', 19.4, 6, 'Skoda', 51712, 52712, 998641, 'RTX-3450100', '50219');
+INSERT INTO T5_VEHICLE VALUES    ('50713', '4621694', 'UP 18 MN 2222', 700000, '4 wheeler', 12.4, 4, 'Maruti', 51713, 52713, 459110, 'RTX-5554100', '50220');
+INSERT INTO T5_VEHICLE VALUES    ('50714', '9262456', 'GA 09 AB 3333', 1500000, '4 wheeler', 19.4, 6, 'Honda', 51714, 52714, 488101, 'RTX-534100', '50209');
+INSERT INTO T5_VEHICLE VALUES    ('50715', '3547518', 'KA 11 CD 4444', 1100000, '4 wheeler', 15.4, 4, 'Ford', 51715, 52715, 978101, 'RTX-5002300', '50214');
+INSERT INTO T5_VEHICLE VALUES    ('50716', '9796133', 'MH 07 EF 5555', 1700000, '4 wheeler', 19.4, 5, 'Ford', 51716, 52716, 999901, 'RTX-2340100', '50207');
+INSERT INTO T5_VEHICLE VALUES    ('50717', '5454545', 'MH 34 GH 6666', 800000, '4 wheeler', 12.4, 4, 'Volkswagon', 51717, 52717, 279101, 'RTX-000100', '50215');
+INSERT INTO T5_VEHICLE VALUES    ('50718', '3434329', 'HP 14 HI 7777', 900000, '4 wheeler', 15.4, 4, 'Skoda', 51718, 52718, 191877, 'RTX-430100', '50203');
+INSERT INTO T5_VEHICLE VALUES    ('50719', '4843466', 'DL 34 JK 8888', 650000, '4 wheeler', 12.4, 4, 'Maruti', 51718, 52719, 998741, 'RTX-5433100', '50208');
+INSERT INTO T5_VEHICLE VALUES    ('50720', '7846844', 'MH 12 LM 9999', 1200000, '4 wheeler', 19.4, 6, 'BMW', 51720, 52720, 485631, 'RTX-940100', '50210');
  -- table 8
  
-insert into T5_PREMIUM_PAYMENT values (50801 , 23235345 , 40000 ,'2018-12-23' , 50901, 50201 );
-insert into T5_PREMIUM_PAYMENT values (50802 , 34423423 , 52000 ,'2019-11-20' ,  50902 ,50202);
-insert into T5_PREMIUM_PAYMENT values (50803 , 342355325 , 52000 ,'2018-02-25' ,  50903 , 50203 );
-insert into T5_PREMIUM_PAYMENT values (50804 , 4542334 , 40000 , '2019-05-15' , 50904 , 50204 );
-insert into T5_PREMIUM_PAYMENT values (50805 , 3434235 , 52000 , '2018-04-13' ,  50905 , 50205 );
-insert into T5_PREMIUM_PAYMENT values (50806 , 86575745 , 40000 ,'2019-04-21' ,  50906 , 50206 );
-insert into T5_PREMIUM_PAYMENT values (50807 , 74576547 , 38000 , '2018-09-11' ,  50907 , 50207 );
-insert into T5_PREMIUM_PAYMENT values (50808 , 3432443535 , 40000 ,'2019-09-24' , 50908 , 50208 );
-insert into T5_PREMIUM_PAYMENT values (50809 , 34234234434 , 36000 , '2018-08-12'  , 50909 , 50209 );
-insert into T5_PREMIUM_PAYMENT values (50810 , 534324 , 28000 , '2019-01-23' , 50910 , 50210 );
-insert into T5_PREMIUM_PAYMENT values (50811 , 342343434 , 22000 , '2018-11-17' , 50911 , 50211 );
-insert into T5_PREMIUM_PAYMENT values (50812 , 87686867 , 38000 , '2019-12-14' ,  50912 , 50212 );
-insert into T5_PREMIUM_PAYMENT values (50813 , 767455436 , 28000 , '2018-10-06' , 50913 , 50213 );
-insert into T5_PREMIUM_PAYMENT values (50814 , 6547554 , 40000 ,'2019-10-09' ,  50914 , 50214 );
-insert into T5_PREMIUM_PAYMENT values (50815 , 84567546 , 35000 ,'2018-05-02' , 50915 , 50215 );
-insert into T5_PREMIUM_PAYMENT values (50816 , 53245345 , 38000 , '2019-05-10' , 50916 , 50216 );
-insert into T5_PREMIUM_PAYMENT values (50817 , 9567546 , 40000 ,'2019-06-12' ,  50901 , 50217 );
-insert into T5_PREMIUM_PAYMENT values (50818 , 45235235 , 52000 ,'2018-06-29' , 50918 , 50218 );
-insert into T5_PREMIUM_PAYMENT values (50819 , 8547546 , 38000 , '2019-02-19' , 50919 , 50219 );
-insert into T5_PREMIUM_PAYMENT values (50820 , 34324434 , 40000 ,'2018-11-20' ,50920 , 50220 );
+insert into T5_PREMIUM_PAYMENT values (50801 , 23235345 , 400000 ,'2018-12-23' , 50901, 50201 );
+insert into T5_PREMIUM_PAYMENT values (50802 , 34423423 , 5200000 ,'2019-11-20' ,  50902 ,50202);
+insert into T5_PREMIUM_PAYMENT values (50803 , 342355325 , 520000 ,'2018-02-25' ,  50903 , 50203 );
+insert into T5_PREMIUM_PAYMENT values (50804 , 4542334 , 400000 , '2019-05-15' , 50904 , 50204 );
+insert into T5_PREMIUM_PAYMENT values (50805 , 3434235 , 520000 , '2018-04-13' ,  50905 , 50205 );
+insert into T5_PREMIUM_PAYMENT values (50806 , 86575745 , 400000 ,'2019-04-21' ,  50906 , 50206 );
+insert into T5_PREMIUM_PAYMENT values (50807 , 74576547 , 380000 , '2018-09-11' ,  50907 , 50207 );
+insert into T5_PREMIUM_PAYMENT values (50808 , 3432443535 , 400000 ,'2019-09-24' , 50908 , 50208 );
+insert into T5_PREMIUM_PAYMENT values (50809 , 34234234434 , 360000 , '2018-08-12'  , 50909 , 50209 );
+insert into T5_PREMIUM_PAYMENT values (50810 , 534324 , 2800000 , '2019-01-23' , 50910 , 50210 );
+insert into T5_PREMIUM_PAYMENT values (50811 , 342343434 , 220000 , '2018-11-17' , 50911 , 50211 );
+insert into T5_PREMIUM_PAYMENT values (50812 , 87686867 , 380000 , '2019-12-14' ,  50912 , 50212 );
+insert into T5_PREMIUM_PAYMENT values (50813 , 767455436 , 280000 , '2018-10-06' , 50913 , 50213 );
+insert into T5_PREMIUM_PAYMENT values (50814 , 6547554 , 4000000 ,'2019-10-09' ,  50914 , 50214 );
+insert into T5_PREMIUM_PAYMENT values (50815 , 84567546 , 350000 ,'2018-05-02' , 50915 , 50215 );
+insert into T5_PREMIUM_PAYMENT values (50816 , 53245345 , 380000 , '2019-05-10' , 50916 , 50216 );
+insert into T5_PREMIUM_PAYMENT values (50817 , 9567546 , 400000 ,'2019-06-12' ,  50901 , 50217 );
+insert into T5_PREMIUM_PAYMENT values (50818 , 45235235 , 520000 ,'2018-06-29' , 50918 , 50218 );
+insert into T5_PREMIUM_PAYMENT values (50819 , 8547546 , 3800000 , '2019-02-19' , 50919 , 50219 );
+insert into T5_PREMIUM_PAYMENT values (50820 , 34324434 , 400000 ,'2018-11-20' ,50920 , 50220 );
 
 -- table 9
 
@@ -249,7 +252,6 @@ INSERT INTO T5_INSURANCE_POLICY VALUES    ('51118', 'Engine Cover','55018','2020
 INSERT INTO T5_INSURANCE_POLICY VALUES    ('51119','Engine Cover' ,'55019','2020-02-08', '2021-02-08',  'Coverage against loss of or damage to your vehicle caused by accidente','51014' ,'50214');
 INSERT INTO T5_INSURANCE_POLICY VALUES    ('51120','Engine Cover', '55020','2020-05-08', '2021-02-08',  'Coverage against loss of or damage to your vehicle caused by natural calamities','51017' ,'50217');
 
-select Agreement_id,Application_id,cust_id from T5_INSURANCE_POLICY;
 -- table 12
 
 
@@ -424,10 +426,10 @@ INSERT INTO T5_OFFICE VALUES('NOP', 'Aditya', '6666000222', 'Lucknow', '1850000'
 
 -- table 19
 
-INSERT INTO T5_COVERAGE VALUES ('51901', '110000', 'Liability', 'HIGH', 'TS5001', 'When accident takes place before your fault', '1 Year', 'Birla Sun Vehicle Insurance Company Limited'),
-('51902', '120000', 'Collision', 'HIGH', 'TRS998', 'Bear your car repair expenses after the accident', '8 Months', 'SBI Vehicle Insurance Company Limited'),
-('51903', '130000', 'Personal Injury', 'LOW', 'TYU887', 'Personal injury protection will cover all the costs associated with the accident', '8 Months', 'Birla Sun Vehicle Insurance Company Limited'),
-('51904', '140000', 'Liability', 'LOW', 'TS5455', 'When accident takes place before your fault', '2 Years', 'SBI Vehicle Insurance Company Limited'),
+INSERT INTO T5_COVERAGE VALUES ('51901', '410000', 'Liability', 'HIGH', 'TS5001', 'When accident takes place before your fault', '1 Year', 'Birla Sun Vehicle Insurance Company Limited'),
+('51902', '520000', 'Collision', 'HIGH', 'TRS998', 'Bear your car repair expenses after the accident', '8 Months', 'SBI Vehicle Insurance Company Limited'),
+('51903', '630000', 'Personal Injury', 'LOW', 'TYU887', 'Personal injury protection will cover all the costs associated with the accident', '8 Months', 'Birla Sun Vehicle Insurance Company Limited'),
+('51904', '40000', 'Liability', 'LOW', 'TS5455', 'When accident takes place before your fault', '2 Years', 'SBI Vehicle Insurance Company Limited'),
 ('51905', '150000', 'Comprehensive', 'LOW', 'TRYU78', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'SBI Vehicle Insurance Company Limited'),
 ('51906', '160000', 'Personal Injury', 'HIGH', 'TVB009', 'Personal injury protection will cover all the costs associated with the accident', '13 Months', 'Reliance Vehicle Insurance Company Limited'),
 ('51907', '170000', 'Liability', 'MEDIUM', 'TSC456', 'When accident takes place before your fault', '18 Months', 'Birla Sun Vehicle Insurance Company Limited'),
@@ -436,11 +438,11 @@ INSERT INTO T5_COVERAGE VALUES ('51901', '110000', 'Liability', 'HIGH', 'TS5001'
 ('51911', '199000', 'Comprehensive', 'LOW', 'YUHG76', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'Reliance Vehicle Insurance Company Limited'),
 ('51912', '123000', 'Liability', 'MEDIUM', 'FGH876', 'When accident takes place before your fault', '1 Year', 'Kotak Vehicle Insurance Company Limited'),
 ('51913', '156000', 'Collision', 'MEDIUM', 'TRE007', 'Bear your car repair expenses after the accident', '1 Months', 'Kotak Vehicle Insurance Company Limited'),
-('51914', '143000', 'Liability', 'HIGH', 'RE4562', 'When accident takes place before your fault', '3 Years', 'SBI Vehicle Insurance Company Limited'),
-('51915', '187000', 'Liability', 'MEDIUM', 'NBH654', 'When accident takes place before your fault', '1 Year', 'SBI Vehicle Insurance Company Limited'),
-('51916', '153000', 'Liability', 'MEDIUM', 'ASH123', 'When accident takes place before your fault', '18 Months', 'Birla Sun Vehicle Insurance Company Limited'),
-('51917', '166000', 'Comprehensive', 'LOW', 'OKI987', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'Kotak Vehicle Insurance Company Limited'),
-('51918', '177000', 'Comprehensive', 'LOW', 'ALO276', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'Kotak Vehicle Insurance Company Limited'),
+('51914', '543000', 'Liability', 'HIGH', 'RE4562', 'When accident takes place before your fault', '3 Years', 'SBI Vehicle Insurance Company Limited'),
+('51915', '687000', 'Liability', 'MEDIUM', 'NBH654', 'When accident takes place before your fault', '1 Year', 'SBI Vehicle Insurance Company Limited'),
+('51916', '653000', 'Liability', 'MEDIUM', 'ASH123', 'When accident takes place before your fault', '18 Months', 'Birla Sun Vehicle Insurance Company Limited'),
+('51917', '666000', 'Comprehensive', 'LOW', 'OKI987', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'Kotak Vehicle Insurance Company Limited'),
+('51918', '677000', 'Comprehensive', 'LOW', 'ALO276', 'Include all kinds of risk factors that are associated with your vehicle, driver, passengers, third-party vehicle, third-party driver, third-party vehicle passengers and third-party property', '8 Months', 'Kotak Vehicle Insurance Company Limited'),
 ('51919', '112000', 'Liability', 'HIGH', 'TSV555', 'When accident takes place before your fault', '15 Months', 'Kotak Vehicle Insurance Company Limited'),
 ('51920', '197000', 'Collision', 'LOW', 'TBH777', 'Bear your car repair expenses after the accident', '1 Year', 'Birla Sun Vehicle Insurance Company Limited');
 
@@ -468,7 +470,7 @@ INSERT INTO T5_INSURANCE_POLICY_COVERAGE VALUES
     ( '51120','51017', '50217',51915,"SBI Vehicle Insurance Company Limited");
     
  -- table 21
- INSERT INTO T5_CLAIM VALUES
+INSERT INTO T5_CLAIM VALUES
 	('52101','52001' ,'500000','50101' ,'Windshield damage','2021-03-03','Approved','50202'),
     ('52102','52002' ,'200000','50102' ,'Animal collisions','2023-02-04','Rejected','50204'),
 	('52103', '52003','150000','50103' ,'Accident','2020-07-29','Approved','50208'),
@@ -476,16 +478,16 @@ INSERT INTO T5_INSURANCE_POLICY_COVERAGE VALUES
 	('52105', '52005','450000', '50105','Vandalism','2019-03-06','Approved','50214'),
 	('52106', '52006','270000','50106' ,'Animal collision','2024-08-23','pending','50216'),
 	('52107', '52007','350000','50107' ,'Accident','2018-12-19','Rejected','50219'),
-    ('52108','52008' ,'500000','50101' ,'Windshield damage','2021-03-03','Approved','50202'),
-    ('52109','52009' ,'200000','50102' ,'Animal collisions','2023-02-04','Rejected','50204'),
-	('52110', '52010','150000','50103' ,'Accident','2020-07-29','Approved','50208'),
-	('52111', '52011','180000','50104' ,'Windshield damage','2019-02-23','pending','50212'),
-	('52112', '52012','450000', '50105','Vandalism','2019-03-06','Approved','50214'),
-	('52113', '52013','270000','50106' ,'Animal collision','2024-08-23','pending','50216'),
-	('52114', '52014','350000','50107' ,'Accident','2018-12-19','Rejected','50219'),
-	('52115', '52015','450000', '50105','Vandalism','2019-03-06','Approved','50214'),
-	('52116', '52016','270000','50106' ,'Animal collision','2024-08-23','pending','50216'),
-	('52117', '52017','350000','50107' ,'Accident','2018-12-19','Rejected','50219'),
+    ('52108','52008' ,'500000','50101' ,'Windshield damage','2021-05-03','Approved','50202'),
+    ('52109','52009' ,'200000','50102' ,'Animal collisions','2023-05-04','Rejected','50204'),
+	('52110', '52010','450000','50103' ,'Accident','2020-05-22','Approved','50208'),
+	('52111', '52011','180000','50104' ,'Windshield damage','2019-12-20','pending','50212'),
+	('52112', '52012','450000', '50105','Vandalism','2019-06-16','Approved','50214'),
+	('52113', '52013','270000','50106' ,'Animal collision','2024-08-20','pending','50216'),
+	('52114', '52014','550000','50107' ,'Accident','2016-12-19','Rejected','50219'),
+	('52115', '52015','450000', '50105','Vandalism','2019-03-09','Approved','50214'),
+	('52116', '52016','470000','50106' ,'Animal collision','2024-08-25','pending','50216'),
+	('52117', '52017','450000','50107' ,'Accident','2019-12-19','Rejected','50219'),
 	('52118', '52018','450000', '50105','Vandalism','2019-03-06','Approved','50214'),
 	('52119', '52019','270000','50106' ,'Animal collision','2024-08-23','pending','50216'),
 	('52120', '52020','350000','50107' ,'Accident','2018-12-19','Rejected','50219');
@@ -505,4 +507,5 @@ INSERT INTO T5_CLAIM_SETTLEMENT VALUES
 	('52210','50713','2003-02-28','655000', '51910', '52115','50214'),
 	('52211','50707','2008-11-24','12000', '51911', '52117','50219'),
 	('52212','50720','1999-08-31','400000', '51912', '52118','50214'),
-	('52213','50717','2006-04-12','35000', '51913', '52120','50219');
+	('52213','50717','2006-04-12','35000', '51913', '52120','50219'),
+    ('53314','50711','1993-03-21','5000000', '51920', '52101', '50202');
