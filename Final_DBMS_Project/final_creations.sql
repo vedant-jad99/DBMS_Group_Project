@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS Insurance_Company;
 USE Insurance_Company;
-drop database insurance_company;
+-- drop database insurance_company;
 -- Table 1
 CREATE TABLE IF NOT EXISTS T5_INCIDENT
 (
