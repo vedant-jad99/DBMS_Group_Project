@@ -423,6 +423,10 @@ INSERT INTO T5_OFFICE VALUES('HIJ', 'Lohit', '7117171717', 'Channai', '1110000',
 INSERT INTO T5_OFFICE VALUES('JKL', 'Ananya', '8484884484', 'Kerala', '1670000','51518', 'Actuarial and Statistical Department', '50515', 'Shriram Vehicle Insurance Company Limited'); 
 INSERT INTO T5_OFFICE VALUES('LMN', 'Satyam', '9801111111', 'Delhi', '1930000','51519','Underwriting Department', '50501', ' Bajaj Allianz Vehicle Insurance Company Limited');
 INSERT INTO T5_OFFICE VALUES('NOP', 'Aditya', '6666000222', 'Lucknow', '1850000','51520', 'Legal Department', '50504','ICICI Prudential Vehicle Insurance Company Limited');
+INSERT INTO T5_OFFICE VALUES('Pqr', 'Aditya', '6666000222', 'Lucknow', '1850000','51520', 'Audit Department', '50507','SBI Vehicle Insurance Company Limited');
+INSERT INTO T5_OFFICE VALUES('stu', 'Aditya', '6666000222', 'Pune', '1850000','51520', 'Audit Department', '50507','SBI Vehicle Insurance Company Limited');
+INSERT INTO T5_OFFICE VALUES('vwx', 'Aditya', '6666000222', 'Lucknow', '1850000','51520', 'Legal Department', '50506','Kotak Vehicle Insurance Company Limited');
+INSERT INTO T5_OFFICE VALUES('xxz', 'Aditya', '6666000222', 'Pune', '1850000','51520', 'Legal Department', '50506','Kotak Vehicle Insurance Company Limited');
 
 -- table 19
 
