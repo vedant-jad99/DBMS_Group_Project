@@ -1,3 +1,16 @@
+## Team Members
+1. Vedant Jadhav (18BCS117)
+2. Yashdeep Shetty (18BCS092)
+3. Rutvik Yamkanmardi (18BCS082)
+4. Bhavya Tripathi (18BCS019)
+5. S Namratha (18BCS083)
+6. Aakash Tiwari (18BCS001)
+7. Vishal Kotwal (18BCS041)
+8. Tejaravind Sapram (18BCS089)
+9. Shubham Shinde (18BCS095)
+10. Sigiri Saicharan (18BCS098)
+11. Pravalika (18BCS070)
+
 ## Video-link
 https://drive.google.com/file/d/19orxIDnu1uSs8qNGnkgZLbwASGJVO0eW/view
 
